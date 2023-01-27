@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #706e70;    
+}
+$main-color: #FFC905;
+$second-color: #FFCD04;
+$white-color: #fff;
+$main-bg-color: #22222E;
+
+.hr{
+    display: block;
+    height: 3px;
+    background-color: $main-color;
+    border: none;
+    margin-top: 10px;
+    &_short{
+        width: 48px;
+    }
+    &_long{
+        width: 320px;
+        margin: 10px auto;    
+    }
+    
+}
+
+@import "wrapper.scss";
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";

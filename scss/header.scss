@@ -1,0 +1,52 @@
+header{background-color: $white-color;}
+    .promosection{
+    display: flex;
+    height: 450px;
+    &__photo{
+        display: flex;
+        justify-content: space-around;
+        .yellowdiv{
+            width: 20%;
+            height: 100%;
+            background-color: $second-color;
+        }   
+    }
+    &__img{
+        width: 360px;
+        height: 250px;
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+    &__summary{
+        padding: 0 16px 0 52px;
+    }
+    &__name{
+        margin-top: 46px;
+        font-weight: 600;
+        font-size: 48px;  
+    }
+    &__poffession{
+        display: inline-block;
+        font-weight: 400;
+        font-size: 22px;
+        background-color: $main-color;
+        padding: 0 5px;
+        margin-top: 5px;
+        border-radius: 2.5px;
+    }
+    &__summaryh2{
+        font-weight: 600;
+        font-size: 30px;
+        margin-top: 50px;
+        text-transform: uppercase;
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 10px;
+        text-align: justify;    
+    }
+}
