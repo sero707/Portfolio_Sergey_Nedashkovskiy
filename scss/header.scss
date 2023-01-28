@@ -1,10 +1,11 @@
 header{background-color: $white-color;}
     .promosection{
     display: flex;
-    height: 450px;
+    min-height: 450px;
     &__photo{
         display: flex;
         justify-content: space-around;
+        width: 30%;
         .yellowdiv{
             width: 20%;
             height: 100%;
@@ -15,7 +16,6 @@ header{background-color: $white-color;}
         width: 360px;
         height: 250px;
         img{
-            display: block;
             width: 100%;
         }
     }
